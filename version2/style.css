@@ -55,7 +55,7 @@ h1 {
   #grid {
     display: block;
   }
-  #list_with_brand {
+  #list, #list_with_brand {
     border-right:none;
   }
   h1 {
