@@ -1,0 +1,64 @@
+body {
+  margin:0;
+  font-family: Consolas;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0,128,128);
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+h1 {
+  font-size: 50px;
+  text-align:center;
+  border-bottom:1px gray solid;
+  padding-bottom: 5px;
+  margin:0;
+}
+
+.ref {
+  font-size:20px;
+}
+
+#list {
+  border-right:1px gray solid;
+  padding:0px 40px 0px 0px;
+  margin:0;
+  width:150px;
+}
+
+#list_with_brand {
+  border-right:1px gray solid;
+  padding:0px 40px 0px 0px;
+  margin:0;
+  width:150px;
+}
+
+#grid {
+  display:grid;
+  grid-template-columns: 200px 1fr;
+}
+
+#info {
+  padding-left:10px;
+}
+
+@media(max-width:700px) {
+  #grid {
+    display: block;
+  }
+  #list_with_brand {
+    border-right:none;
+  }
+  h1 {
+    border-bottom:none;
+  }
+}
